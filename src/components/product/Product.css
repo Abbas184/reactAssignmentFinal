@@ -1,0 +1,83 @@
+/* Product.css */
+.products-page {
+    padding: 20px;
+}
+
+.header-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.category-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product-card {
+    width: 300px;  /* Set a fixed width for consistent card sizes */
+    padding: 10px;
+    text-align: center;
+    position: relative; /* For absolute positioning of card actions */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.product-image-container { /* New container for the image */
+    position: relative;
+    width: 100%;
+    padding-top: 100%; /* 1:1 aspect ratio (adjust as needed) */
+    overflow: visible; /* Hide any image overflow */
+}
+
+.success-alert {
+    background-color: green !important;
+    color: white !important;
+}
+
+.product-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* or contain if you don't want cropping */
+}
+
+.card-actions {
+    padding: 8px 16px; /* Add horizontal padding */
+    position: relative;  /* To make sure background color covers the area even when the content is smaller. This will always cover the bottom of card */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+.card-content { /* New style for card content */
+    padding: 16px; /* Add padding around content */
+    text-align: left; /* Align text to the left */
+    paddingBottom: 0;
+}
+
+.card-content .MuiTypography-h6 {
+    font-size: 1.1rem; /* Or even smaller if necessary */
+    font-weight: 600;
+  }
+
+.card-actions .MuiButton-root { /* Style for the Buy button */
+    margin-left: 0; /* Remove any existing left margin */
+ }
+ .card-content .MuiTypography-h6 + .MuiTypography-h6 { /* Style the price specifically */
+    font-weight: 400; /* Normal weight for the price */
+}
