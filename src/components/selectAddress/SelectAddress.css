@@ -1,0 +1,5 @@
+/* SelectAddress.css */
+.error-alert {
+    background-color: lightgreen !important;  /* Light green background */
+    color: black !important; /* Black text for contrast */
+}
