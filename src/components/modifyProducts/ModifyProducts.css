@@ -1,0 +1,22 @@
+/* modifyProduct.css */
+.modify-product-page {
+    padding: 20px;
+}
+
+.modify-product-container {
+    max-width: 600px;  /* Adjust as needed */
+    margin: 0 auto;  /* Center the container */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Add specific styles for input fields if necessary */
+.modify-product-container .MuiTextField-root {
+    margin: 8px 0; /* Adjust margin as needed */
+}
+
+.success-message {
+  color: green;
+  margin-bottom: 10px;
+}
