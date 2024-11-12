@@ -1,0 +1,23 @@
+/* Signup.css */
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  min-height: calc(100vh - 64px); /* Adjust navbar height if needed */
+}
+
+.signup-form {
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-field {
+  margin-bottom: 16px !important;
+}
+
+
+.submit-button {
+  margin-top: 24px !important;
+  margin-bottom: 16px !important;
+}
