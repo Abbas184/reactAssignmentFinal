@@ -1,0 +1,18 @@
+/* AddProduct.css */
+.add-product-page {
+    padding: 20px;
+}
+
+.add-product-container {
+    max-width: 600px;  /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.success-message {
+    color: green;
+    margin-bottom: 10px;
+}
+
