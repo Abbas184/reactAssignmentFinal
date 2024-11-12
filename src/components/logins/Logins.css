@@ -1,0 +1,43 @@
+/* Login.css */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  min-height: calc(100vh - 64px); /* Adjust if your navbar height is different */
+}
+
+.avatar-container {
+  margin-bottom: 20px;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 400px;
+}
+
+
+.form-field {
+  margin-bottom: 16px !important; 
+}
+
+.submit-button {
+  margin-top: 24px !important;
+  margin-bottom: 16px !important;
+  background-color: #3f51b5;
+}
+
+
+.signup-link {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.copyright {
+  position: absolute;  /* Or relative if needed */
+  bottom: 10px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%; 
+  text-align: center;
+}
